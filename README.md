@@ -25,9 +25,9 @@ In this exercise we are containerizing an application using Dockerfile with pyth
 * IDE (VSCode)
 
 ### AWS Architecture ###
-![Screenshot 2023-09-24 at 1 15 52 AM](https://github.com/abhiarora87/devops-assignment/assets/54551633/d15a4c65-88c0-42cf-a234-5a4fd59b8ee0)
+![Screenshot 2023-09-24 at 2 21 50 AM](https://github.com/abhiarora87/devops-assignment/assets/54551633/bbe5c714-a344-4050-93ed-957fcfa4ed92)
 
-Terraform has been used to provision a basic ECS infrastructure hosting the docker container with basic network constructs.The endpoint URL is the DNS name of ALB port 5000 which routes the requests to the underlying docker container within the ECS service.
+Terraform has been used to provision a basic ECS infrastructure hosting the docker container with basic network constructs. The endpoint URL is the DNS name of ALB port 5000 which routes the requests to the underlying docker container within the ECS service.
 
 #### Few Important Screenshots ####
 ![Screenshot 2023-09-23 at 10 19 37 PM](https://github.com/abhiarora87/devops-assignment/assets/54551633/7ce9b02b-a80b-421e-998a-dbb9fc7c5c87)
