@@ -30,13 +30,13 @@ In this exercise we are containerizing an application using Dockerfile with pyth
 Terraform has been used to provision a basic ECS infrastructure hosting the docker container with basic network constructs. The endpoint URL is the DNS name of ALB port 5000 which routes the requests to the underlying docker container within the ECS service.
 
 #### Few Important Screenshots ####
-![Screenshot 2023-09-23 at 10 19 37 PM](https://github.com/abhiarora87/devops-assignment/assets/54551633/7ce9b02b-a80b-421e-998a-dbb9fc7c5c87)
+![ALB](/images/ALB.png)
 
-![Screenshot 2023-09-23 at 10 18 47 PM](https://github.com/abhiarora87/devops-assignment/assets/54551633/a6e5c405-58ff-40d1-921a-d0bba178b508)
+![ecs-cluster](/images/ecs-cluster.png)
 
 
 ### Steps ###
-![Screenshot 2023-09-24 at 2 05 10 AM](https://github.com/abhiarora87/devops-assignment/assets/54551633/67857f6d-1c4d-4007-b19e-ef9120feba19)
+![Steps](/images/steps.png)
 
 * First, we provision the ECR repository with appropiate policy attached using Terraform
 ```
@@ -79,16 +79,16 @@ It can also we verified for the browser with following parameters
 
 
 -> http://ALB_DNS_NAME:5000/3
-<img width="997" alt="Screenshot 2023-09-23 at 10 12 43 PM" src="https://github.com/abhiarora87/devops-assignment/assets/54551633/da3c7332-4969-4202-b63c-788a1e1036e7">
+![DNS:3](/images/DNS:3.png)
 
 -> http://ALB_DNS_NAME:5000/2
-<img width="1067" alt="Screenshot 2023-09-23 at 10 12 33 PM" src="https://github.com/abhiarora87/devops-assignment/assets/54551633/2a95333b-1933-4011-8ce2-903afcfaeafa">
+![DNS:2](/images/DNS:2.png)
 
 -> http://ALB_DNS_NAME:5000/1
-<img width="998" alt="Screenshot 2023-09-23 at 10 12 23 PM" src="https://github.com/abhiarora87/devops-assignment/assets/54551633/ca1599ae-c5db-4540-b99b-7656e317abe5">
+![DNS:1](/images/DNS:1.png)
 
 -> http://ALB_DNS_NAME:5000
-<img width="1338" alt="Screenshot 2023-09-23 at 10 12 09 PM" src="https://github.com/abhiarora87/devops-assignment/assets/54551633/761eb294-1072-4345-9574-0ae2b3b2cb9b">
+![DNS](/images/DNS.png)
 
 
 ### Improvements ###
