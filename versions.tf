@@ -16,4 +16,4 @@ provider "aws" {
   secret_key = "my-secret-key"
 }
 
-# In production would authenticate using the assumed roles
+# In production would authenticate using the assumed roles and use s3/terraform cloud backend
