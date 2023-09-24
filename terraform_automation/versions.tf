@@ -12,9 +12,9 @@ terraform {
 provider "aws" {
   region     = var.region
   profile    = "devops-user"
-  access_key = "AKIAWJ5CY7JODST2XM6B"
-  secret_key = "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"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
 }
 
 
-# In production would authenciate using the assumed roles
+# In production would authenticate using the assumed roles
