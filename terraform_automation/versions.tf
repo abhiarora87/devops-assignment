@@ -17,4 +17,4 @@ provider "aws" {
 }
 
 
-# In production would authenticate using the assumed roles
+# In production would authenticate using the assumed roles and use s3/terraform cloud backend
