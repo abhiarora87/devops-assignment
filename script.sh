@@ -2,9 +2,9 @@
 
 # Define Variables
 
-export AWS_ACCOUNT_ID="433596201564"
-export AWS_ACCESS_KEY_ID=AKIAWJ5CY7JODST2XM6B
-export AWS_SECRET_ACCESS_KEY=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
+export AWS_ACCOUNT_ID="my-account-number"
+export AWS_ACCESS_KEY_ID=my-access-key
+export AWS_SECRET_ACCESS_KEY=my-secret-key
 export AWS_DEFAULT_REGION="us-east-1"
 
 while [[ "$#" -gt 0 ]]; do
